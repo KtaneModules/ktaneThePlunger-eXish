@@ -153,11 +153,26 @@ public class ThePlungerScript : MonoBehaviour
         if (m.Success)
         {
             yield return null;
-            while ((int)BombInfo.GetTime() % 10 != int.Parse(m.Groups[1].ToString()))
-            {
+            while ((int)BombInfo.GetTime() % 10 == int.Parse(m.Groups[1].ToString()))
                 yield return "trycancel The plunger was not pressed due to a request to cancel.";
-            }
+            while ((int)BombInfo.GetTime() % 10 != int.Parse(m.Groups[1].ToString()))
+                yield return "trycancel The plunger was not pressed due to a request to cancel.";
             PlungerSelectable.OnInteract();
+        }
+    }
+
+    private void TwitchHandleForcedSolve()
+    {
+        StartCoroutine(ForceSolve());
+    }
+
+    private IEnumerator ForceSolve()
+    {
+        while (true)
+        {
+            if ((int) BombInfo.GetTime() % 10 == _answer && _isActive)
+                PlungerSelectable.OnInteract();
+            yield return null;
         }
     }
 }
