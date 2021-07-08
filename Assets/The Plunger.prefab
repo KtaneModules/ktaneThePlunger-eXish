@@ -939,7 +939,7 @@ MonoBehaviour:
   CountdownTime: 40
   ResetDelayMin: 10
   ResetDelayMax: 40
-  ModuleType: ThePlungerModule
+  ModuleType: needyPlunger
   ModuleDisplayName: The Plunger
   RequiresTimerVisibility: 1
   WarnAtFiveSeconds: 1

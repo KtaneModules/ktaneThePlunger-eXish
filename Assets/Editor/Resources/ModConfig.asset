@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Name: ModConfig
   m_EditorClassIdentifier: 
   id: ThePlungerModule
-  title: The Plunger
-  author: Livio, Marksam32
-  description: 
-  version: 
+  title: The Plunger (Needy)
+  author: Livio, Marksam32, eXish
+  description: "We're going to Needyland!\n\nHTML: https://ktane.timwi.de/HTML/The%20Plunger.html\r\nPDF:
+    https://ktane.timwi.de/PDF/The%20Plunger.pdf\r\n\r\nThe Plunger (needyPlunger)
+    v1.2\nModule and Idea by Livio\nRecoded by Marksam32\nMaintained by eXish\nTwitch
+    Plays supported"
+  version: 1.2
   outputFolder: build
-  previewImage: {fileID: 0}
+  previewImage: {fileID: 2800000, guid: fad68bac078339446a07720c28468c9b, type: 3}
