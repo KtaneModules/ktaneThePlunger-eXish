@@ -816,8 +816,8 @@ MonoBehaviour:
   PlungerRenderer: {fileID: 23420011806590620}
   Materials:
   - {fileID: 2100000, guid: 0d125640c0878054484d53e0d456e888, type: 2}
-  - {fileID: 2100000, guid: e532dddc1aee98e449bb1686ea3f6489, type: 2}
   - {fileID: 2100000, guid: f3b239535a0af01419828f3a6fdb4f20, type: 2}
+  - {fileID: 2100000, guid: e532dddc1aee98e449bb1686ea3f6489, type: 2}
   - {fileID: 2100000, guid: 7eb9f3c6342f2b343989658106f5adb9, type: 2}
   ButtonAnimator: {fileID: 95731157954721916}
   ButtonText: {fileID: 102562239855286442}

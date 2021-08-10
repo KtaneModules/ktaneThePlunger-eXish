@@ -13,7 +13,7 @@ public class ThePlungerScript : MonoBehaviour
 
     public KMSelectable PlungerSelectable;
     public MeshRenderer PlungerRenderer;
-    public List<Material> Materials; //Red, Green, BLue, Yellow
+    public List<Material> Materials; //Red, Blue, Green, Yellow
     public Animator ButtonAnimator;
     public TextMesh ButtonText;
 
